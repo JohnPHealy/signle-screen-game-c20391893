@@ -28,4 +28,4 @@ public class AIPatrol : MonoBehaviour
             turn = true;
         }
     }
-}
+} 

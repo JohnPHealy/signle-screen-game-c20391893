@@ -11,14 +11,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/AIPatrol.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlayerCombat.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AIPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/PlayerMovement.cs" />
-      <option value="$PROJECT_DIR$/PlayerCombat.cs" />
       <option value="$PROJECT_DIR$/NewBehaviourScript.cs" />
+      <option value="$PROJECT_DIR$/PlayerCombat.cs" />
+      <option value="$PROJECT_DIR$/AIPatrol.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pf6DZmwjexfwJV96502TPTQao9" />
@@ -48,6 +50,14 @@
       <workItem from="1615646587757" duration="1553000" />
       <workItem from="1615648592124" duration="24000" />
       <workItem from="1615648633175" duration="88000" />
+      <workItem from="1615648751406" duration="235000" />
+      <workItem from="1615649191567" duration="34000" />
+      <workItem from="1615649599799" duration="70000" />
+      <workItem from="1615649687817" duration="17000" />
+      <workItem from="1615649722786" duration="9000" />
+      <workItem from="1615649775336" duration="19000" />
+      <workItem from="1615649850185" duration="1680000" />
+      <workItem from="1615652709097" duration="75000" />
     </task>
     <servers />
   </component>

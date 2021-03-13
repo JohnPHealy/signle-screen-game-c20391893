@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3236823812943386206}
   - component: {fileID: 3620318980348155341}
   m_Layer: 3
-  m_Name: GroundCheck
+  m_Name: PlayerCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,9 +44,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.01}
+  m_Offset: {x: 0, y: 0.2}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.32
 --- !u!1 &5758409121014084122
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,7 +98,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.51
 --- !u!50 &3226750974469197606
 Rigidbody2D:
   serializedVersion: 4
@@ -139,6 +139,7 @@ MonoBehaviour:
   groundLayers:
     serializedVersion: 2
     m_Bits: 8
+  cancelJumpEnabled: 0
 --- !u!114 &1269537655
 MonoBehaviour:
   m_ObjectHideFlags: 0
