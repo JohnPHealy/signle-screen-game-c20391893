@@ -10,9 +10,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AIPatrol.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/NewBehaviourScript.cs" />
+      <option value="$PROJECT_DIR$/PlayerCombat.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pf6DZmwjexfwJV96502TPTQao9" />
@@ -37,13 +43,16 @@
       <option name="presentableId" value="Default" />
       <updated>1615561681710</updated>
       <workItem from="1615561690130" duration="127000" />
+      <workItem from="1615644071915" duration="1827000" />
+      <workItem from="1615646085715" duration="478000" />
+      <workItem from="1615646587757" duration="1553000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
