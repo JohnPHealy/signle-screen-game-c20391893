@@ -53898,6 +53898,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5758409121359542413, guid: c90bd173473e6f146ac1609ea88c1837, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c0310099f5a66e74f9e5a05565e976ce, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c90bd173473e6f146ac1609ea88c1837, type: 3}
 --- !u!1001 &8148279027944791771
@@ -54055,6 +54059,22 @@ PrefabInstance:
     - target: {fileID: 5758409121014084122, guid: 932c9a5f68b2b3f45bac85cbdc67dc0d, type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5758409121359542413, guid: 932c9a5f68b2b3f45bac85cbdc67dc0d, type: 3}
+      propertyPath: m_Size.x
+      value: 2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 5758409121359542413, guid: 932c9a5f68b2b3f45bac85cbdc67dc0d, type: 3}
+      propertyPath: m_Size.y
+      value: 2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 5758409121359542413, guid: 932c9a5f68b2b3f45bac85cbdc67dc0d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c0310099f5a66e74f9e5a05565e976ce, type: 3}
+    - target: {fileID: 5758409121359542413, guid: 932c9a5f68b2b3f45bac85cbdc67dc0d, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 932c9a5f68b2b3f45bac85cbdc67dc0d, type: 3}
