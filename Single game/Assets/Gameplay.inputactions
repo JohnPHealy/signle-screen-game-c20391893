@@ -1,5 +1,5 @@
 {
-    "name": "New Controls",
+    "name": "Gameplay",
     "maps": [
         {
             "name": "Gameplay",
@@ -17,6 +17,14 @@
                     "name": "Jump",
                     "type": "Button",
                     "id": "eb0eed9a-67fd-4185-b0c6-df76894c8cf6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "a3d4a32e-50ad-4a8d-a37b-67be76e57ff9",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -97,6 +105,17 @@
                     "processors": "",
                     "groups": "Keyboard",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2c5e15ab-96ca-4915-b664-e12fb4da70ad",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
