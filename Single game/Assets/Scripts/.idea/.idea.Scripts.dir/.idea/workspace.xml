@@ -19,8 +19,8 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/NewBehaviourScript.cs" />
-      <option value="$PROJECT_DIR$/PlayerCombat.cs" />
       <option value="$PROJECT_DIR$/AIPatrol.cs" />
+      <option value="$PROJECT_DIR$/PlayerCombat.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pf6DZmwjexfwJV96502TPTQao9" />
@@ -58,6 +58,7 @@
       <workItem from="1615649775336" duration="19000" />
       <workItem from="1615649850185" duration="1680000" />
       <workItem from="1615652709097" duration="75000" />
+      <workItem from="1615725183905" duration="703000" />
     </task>
     <servers />
   </component>

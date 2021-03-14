@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 3226750974469197606}
   - component: {fileID: 8084567557606918617}
   - component: {fileID: 1269537655}
+  - component: {fileID: 548648936}
   m_Layer: 3
   m_Name: Enemy
   m_TagString: Untagged
@@ -156,18 +157,34 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8084567557606918617}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Move
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  moveDir: 1
+  moveDir: -1
+--- !u!114 &548648936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5758409121014084122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fd50fb585666b48a42d5485990f7a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCheck: {fileID: 3620318980348155341}
+  playerLayers:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &5758409121359542415
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,12 +256,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: a2a53b7c46a937342aeeb110ef63d452, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c0310099f5a66e74f9e5a05565e976ce, type: 3}
   m_Color: {r: 0.5188679, g: 0.10524208, b: 0.10524208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
