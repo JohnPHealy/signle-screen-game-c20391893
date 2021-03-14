@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3236823812943386206}
-  - component: {fileID: 3620318980348155341}
+  - component: {fileID: 1301043317}
   m_Layer: 3
   m_Name: PlayerCheck
   m_TagString: Untagged
@@ -31,8 +31,8 @@ Transform:
   m_Father: {fileID: 5758409121014084121}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &3620318980348155341
-CircleCollider2D:
+--- !u!70 &1301043317
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -41,12 +41,12 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.2}
-  serializedVersion: 2
-  m_Radius: 0.32
+  m_Offset: {x: 0, y: 0.3}
+  m_Size: {x: 0.41, y: 0.59}
+  m_Direction: 0
 --- !u!1 &5758409121014084122
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,9 +97,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.4}
   serializedVersion: 2
-  m_Radius: 0.51
+  m_Radius: 1.06
 --- !u!50 &3226750974469197606
 Rigidbody2D:
   serializedVersion: 4
@@ -136,7 +136,7 @@ MonoBehaviour:
   moveSpeed: 80
   maxSpeed: 80
   jumpForce: 30
-  groundCheck: {fileID: 3620318980348155341}
+  groundCheck: {fileID: 3620318980348155341, guid: 932c9a5f68b2b3f45bac85cbdc67dc0d, type: 3}
   groundLayers:
     serializedVersion: 2
     m_Bits: 8
@@ -168,6 +168,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  patrolLeft: {fileID: 0}
+  patrolRight: {fileID: 0}
   moveDir: -1
 --- !u!114 &548648936
 MonoBehaviour:
@@ -181,7 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fd50fb585666b48a42d5485990f7a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCheck: {fileID: 3620318980348155341}
+  playerCheck: {fileID: 3620318980348155341, guid: 932c9a5f68b2b3f45bac85cbdc67dc0d, type: 3}
   playerLayers:
     serializedVersion: 2
     m_Bits: 64
