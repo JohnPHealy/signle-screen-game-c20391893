@@ -22,4 +22,4 @@ public class PlayerCombat : MonoBehaviour
             Destroy(other.gameObject);
         }
     }
-} 
+}
