@@ -7,7 +7,7 @@ using UnityEngine.Events;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject player;
-    [SerializeField] private UnityEvent<string> addScore;
+    [SerializeField] private UnityEvent<string> addScore, respawn;
     private Vector3 startPos;
     private int score;
 
@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     {
         player.transform.position = startPos;
        score = 0;
-
+respawn.Invoke("");
         UpdateUI();
     }
 

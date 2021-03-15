@@ -15,7 +15,7 @@ public class PlayerCombat : MonoBehaviour
         if (playerCheck.IsTouchingLayers(playerLayers))
         {
             manager.AddScore(scoreToGive);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
     private void OnCollisionEnter2D(Collision2D other)
