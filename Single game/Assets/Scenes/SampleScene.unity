@@ -60016,7 +60016,7 @@ PrefabInstance:
     - target: {fileID: 2751009040387663759, guid: bc2d650e967a62743a657e911ffefd0c, type: 3}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+      objectReference: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 2751009040387663759, guid: bc2d650e967a62743a657e911ffefd0c, type: 3}
       propertyPath: m_Name
       value: RespawnManager
